@@ -33,8 +33,8 @@ const SignUp = (props) => {
 }
   return (
     <div>
-        <h2>Create an account to store your notes</h2>
-      <form  onSubmit={handleSubmit} >
+        <h2 style={{marginTop:"6rem"}}>Create an account to continue </h2>
+      <form  onSubmit={handleSubmit} style={{margin:"auto auto"}}>
                 <div className="form-group my-3">
                     <label htmlFor="name">Name</label>
                     <input type="text" className="form-control" onChange={handleOnChange} value={credentials.name} id="name" name='name' aria-describedby="emailHelp" placeholder="Enter name" required/>

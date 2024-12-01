@@ -30,8 +30,8 @@ const Login = (props) => {
 }
     return (
         <div>
-            <h2>Login to continue to iNotebook</h2>
-            <form  onSubmit={handleSubmit} >
+            <h2 style={{marginTop:"6rem"}}>Login to continue to iNotebook</h2>
+            <form  onSubmit={handleSubmit} style={{margin:"auto auto"}}>
                 <div className="form-group my-3">
                     <label htmlFor="email">Email address</label>
                     <input type="email" className="form-control" onChange={handleOnChange} value={credentials.email} id="email" name='email' aria-describedby="emailHelp" placeholder="Enter email"/>

@@ -12,7 +12,7 @@ function Alert(props) {
     }
   return (
     
-    <div style={{height:"60px"}}>
+    <div className="fixed-top" style={{height:"60px", marginTop:"3.5rem"}}>
     {
     props.alert &&<div>
   <div className={`alert alert-${props.alert.type} alert-dismissible fade show`} role="alert">
