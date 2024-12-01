@@ -9,7 +9,7 @@ import Alert from './components/Alert';
 import Login from './components/Login';
 import Signup from './components/SignUp';
 import { useState } from 'react';
-import AddNote from './components/AddNote';
+
 function App() {
 
   const [alert,setAlert]=useState(null);
