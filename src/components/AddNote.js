@@ -25,7 +25,7 @@ const AddNote = (props) => {
         <div> 
             <div style={{caretColor:"transparent",cursor:"default", marginTop:"5rem",padding:"1rem",borderRadius:"1rem"}}>            
            <h2 className=''>Add Note 📝</h2>
-           <form>
+           <form style={{caretColor:"black"}}>
                 <div className="mb-3">
                     <label htmlFor="title" className="form-label">Title</label>
                     <input type="text" className="form-control" placeholder='Enter atleast 5 characters' onChange={handleOnChange} name='title' id="title" value={note.title} aria-describedby="emailHelp" />
