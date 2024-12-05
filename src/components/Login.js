@@ -9,7 +9,7 @@ const Login = (props) => {
     const handleSubmit=async(e)=>{
         e.preventDefault();
         console.log(e)
-        const response=await fetch("https://i-notebook-backend-fawn.vercel.app/api/auth/login",{
+        const response=await fetch("https://inotebook-backend-9w7i.onrender.com/api/auth/login",{
         method:'POST',
         headers:{
             'Content-Type':'application/json'

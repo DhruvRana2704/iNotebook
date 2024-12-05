@@ -2,7 +2,7 @@ import NoteContext from "./NoteContext";
 import { useState } from "react";
 
 const NoteState = (props) => {
-  const host = "https://i-notebook-backend-fawn.vercel.app"
+  const host = "https://inotebook-backend-9w7i.onrender.com"
   const notesInit = []
   const [notes, setNotes] = useState(notesInit)
 
