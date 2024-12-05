@@ -31,7 +31,7 @@ const NoteItem = (props) => {
             <span className="position-absolute top-0 translate-middle badge rounded-pill bg-danger" style={{ zIndex: "1", left: "50%" }}>
               {note.tag}
             </span>
-            <h5 className="card-title bungee-spice-regular">{note.title}</h5>
+            <h5 className="card-title sour-gummy-normal">{note.title}</h5>
             <p className="card-text sour-gummy-normal">
               {isExpanded ? note.description : limitText(note.description)}
               {note.description.length > maxLength && (

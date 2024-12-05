@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <div style={{fontSize:"1.5rem",marginTop:"8rem"}}>
-      <h1 className='bungee-spice-regular'>iNoteBook</h1>
+      <h1 className='sour-gummy-normal'>iNoteBook</h1>
       Welcome to iNotebook, a secure and reliable platform for managing your notes effortlessly. iNotebook is designed to provide a seamless note-taking experience with cutting-edge features:
       <div className="accordion my-4" id="accordionExample" >
   <div className="accordion-item" style={{fontSize:"1.2rem"}}>
